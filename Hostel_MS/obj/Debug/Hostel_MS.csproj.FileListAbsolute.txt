@@ -1,0 +1,13 @@
+D:\Hostel-Management-System\Hostel_MS\bin\Debug\Hostel_MS.exe.config
+D:\Hostel-Management-System\Hostel_MS\bin\Debug\Hostel_MS.exe
+D:\Hostel-Management-System\Hostel_MS\bin\Debug\Hostel_MS.pdb
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.csproj.AssemblyReference.cache
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.csproj.SuggestedBindingRedirects.cache
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Properties.Resources.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.csproj.GenerateResource.cache
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.csproj.CoreCompileInputs.cache
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.exe
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.pdb
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Main.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Student_Registration.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Template.resources
