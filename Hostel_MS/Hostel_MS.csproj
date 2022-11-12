@@ -46,17 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AssignRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AssignRoom.Designer.cs">
+      <DependentUpon>AssignRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Room.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Room.Designer.cs">
       <DependentUpon>Room.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Student_Registration.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Student_Registration.Designer.cs">
       <DependentUpon>Student_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Visitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Visitor.Designer.cs">
+      <DependentUpon>Visitor.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -72,11 +96,23 @@
     <Compile Include="Template.Designer.cs">
       <DependentUpon>Template.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\AssignRoom.resx">
+      <DependentUpon>AssignRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Room.resx">
       <DependentUpon>Room.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Student_Registration.resx">
       <DependentUpon>Student_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Visitor.resx">
+      <DependentUpon>Visitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
