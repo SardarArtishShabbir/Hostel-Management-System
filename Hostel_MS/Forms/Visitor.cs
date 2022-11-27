@@ -21,9 +21,11 @@ namespace Hostel_MS.Forms
 
         private void btn_save_Click(object sender, EventArgs e)
         {
+            string Query = "INSERT INTO tbl_Visitor VALUES('"+txt_cnic.Text+"','"+txt_name.Text+"','"+txt_visit_time.Text+"','"+txt_relation.Text+"','"+cmb_name.Text+"','"+txt_name.Text+"')";
             sqlData.OpenCon();
-            sqlData.NonQueryExecuter("Insert Query");
+            sqlData.NonQueryExecuter(Query);
             sqlData.CloseCon();
+            MyMessage.Success("Visitor");
         }
     }
 }
