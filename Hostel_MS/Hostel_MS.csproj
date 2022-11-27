@@ -34,6 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -82,6 +84,8 @@
     <Compile Include="Forms\Visitor.Designer.cs">
       <DependentUpon>Visitor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Message.cs" />
+    <Compile Include="Helpers\SqlData.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>

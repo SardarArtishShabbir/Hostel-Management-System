@@ -11,3 +11,8 @@ D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.pdb
 D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Main.resources
 D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Student_Registration.resources
 D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Template.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.AssignRoom.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Login.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Room.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Staff.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Visitor.resources
