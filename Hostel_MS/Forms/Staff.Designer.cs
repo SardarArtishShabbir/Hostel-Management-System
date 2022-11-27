@@ -40,6 +40,7 @@
             this.txt_Address = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txt_CNIC = new System.Windows.Forms.MaskedTextBox();
             this.txt_Name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.dt_DateOfRegistration = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
-            this.txt_CNIC = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -100,6 +100,7 @@
             this.btn_Clear.Text = "Clear";
             this.btn_Clear.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
             // 
             // btn_Save
             // 
@@ -187,6 +188,14 @@
             this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Bio Data";
+            // 
+            // txt_CNIC
+            // 
+            this.txt_CNIC.Location = new System.Drawing.Point(182, 33);
+            this.txt_CNIC.Mask = "00000-0000000-0";
+            this.txt_CNIC.Name = "txt_CNIC";
+            this.txt_CNIC.Size = new System.Drawing.Size(200, 22);
+            this.txt_CNIC.TabIndex = 27;
             // 
             // txt_Name
             // 
@@ -293,14 +302,6 @@
             this.label9.Size = new System.Drawing.Size(174, 20);
             this.label9.TabIndex = 35;
             this.label9.Text = "Date of Registration : ";
-            // 
-            // txt_CNIC
-            // 
-            this.txt_CNIC.Location = new System.Drawing.Point(182, 33);
-            this.txt_CNIC.Mask = "00000-0000000-0";
-            this.txt_CNIC.Name = "txt_CNIC";
-            this.txt_CNIC.Size = new System.Drawing.Size(200, 22);
-            this.txt_CNIC.TabIndex = 27;
             // 
             // Staff
             // 

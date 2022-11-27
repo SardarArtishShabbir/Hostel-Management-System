@@ -27,5 +27,10 @@ namespace Hostel_MS.Forms
             sqlData.CloseCon();
             MyMessage.Success("Staff");
         }
+
+        private void btn_Clear_Click(object sender, EventArgs e)
+        {
+            //THis is clear code
+        }
     }
 }
