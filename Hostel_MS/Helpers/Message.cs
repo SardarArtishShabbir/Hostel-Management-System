@@ -13,5 +13,10 @@ namespace Hostel_MS.Helpers
         {
             MessageBox.Show(Name+" saved successfully!","Success Message", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
+
+        public static void Error(string Name)
+        {
+            MessageBox.Show(Name + " Error", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 }
