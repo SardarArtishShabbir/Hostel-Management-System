@@ -23,7 +23,7 @@ namespace Hostel_MS.Forms
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
-            string Query = "INSERT INTO tbl_Room VALUES('"+txt_Number.Text+"','"+txt_Floot.Text+"','"+cmb_Type.Text+"','"+cmb_washRoom.Text+"','"+txt_SeatRent.Text+"')";
+            string Query = "INSERT INTO tbl_Room VALUES('"+txt_Number.Text+"','"+txt_Floot.Text+"','"+cmb_Type.Text+"','"+cmb_washRoom.Text+"','"+txt_SeatRent.Text+"','"+txt_AvailableSeats.Text+"')";
             sqlData.OpenCon();
             sqlData.NonQueryExecuter(Query);
             sqlData.CloseCon();

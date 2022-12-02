@@ -86,6 +86,11 @@
     </Compile>
     <Compile Include="Helpers\Message.cs" />
     <Compile Include="Helpers\SqlData.cs" />
+    <Compile Include="HostelDbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +99,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoomNumberDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RoomNumberDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +143,17 @@
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HostelDbDataSet1.xsc">
+      <DependentUpon>HostelDbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet1.xss">
+      <DependentUpon>HostelDbDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -142,6 +163,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="RoomNumberDataSet.xsc">
+      <DependentUpon>RoomNumberDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RoomNumberDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RoomNumberDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RoomNumberDataSet.xss">
+      <DependentUpon>RoomNumberDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
