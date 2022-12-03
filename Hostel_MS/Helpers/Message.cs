@@ -16,7 +16,7 @@ namespace Hostel_MS.Helpers
 
         public static void Error(string Name)
         {
-            MessageBox.Show(Name + " Error", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Error :"+Name, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }
