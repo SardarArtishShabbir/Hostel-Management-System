@@ -34,4 +34,4 @@ C:\Users\STAR COMPUTER\OneDrive\Desktop\Hostel-Management-System\Hostel_MS\obj\D
 C:\Users\STAR COMPUTER\OneDrive\Desktop\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.csproj.CoreCompileInputs.cache
 C:\Users\STAR COMPUTER\OneDrive\Desktop\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.exe
 C:\Users\STAR COMPUTER\OneDrive\Desktop\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.pdb
-D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Form1.resources
+D:\Hostel-Management-System\Hostel_MS\obj\Debug\Hostel_MS.Forms.Search_Student.resources
