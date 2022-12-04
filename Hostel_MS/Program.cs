@@ -17,7 +17,7 @@ namespace Hostel_MS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AssignRoom());
+            Application.Run(new Search_Student());
         }
     }
 }

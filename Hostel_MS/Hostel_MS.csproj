@@ -66,6 +66,12 @@
     <Compile Include="Forms\Room.Designer.cs">
       <DependentUpon>Room.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Search_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Search_Student.Designer.cs">
+      <DependentUpon>Search_Student.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Staff.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,11 @@
     </Compile>
     <Compile Include="Helpers\Message.cs" />
     <Compile Include="Helpers\SqlData.cs" />
+    <Compile Include="HostelDbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HostelDbDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="HostelDbDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -119,6 +130,9 @@
     <EmbeddedResource Include="Forms\Room.resx">
       <DependentUpon>Room.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Search_Student.resx">
+      <DependentUpon>Search_Student.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Staff.resx">
       <DependentUpon>Staff.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +157,17 @@
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HostelDbDataSet.xsc">
+      <DependentUpon>HostelDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HostelDbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HostelDbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HostelDbDataSet.xss">
+      <DependentUpon>HostelDbDataSet.xsd</DependentUpon>
+    </None>
     <None Include="HostelDbDataSet1.xsc">
       <DependentUpon>HostelDbDataSet1.xsd</DependentUpon>
     </None>
